@@ -2,6 +2,7 @@
 //    Eduboard2 ESP32-S3 Hardware Testprogram
 //    Author: Martin Burger
 //    Juventus Technikerschule
+//    Version: 1.0.0
 //    
 //    This is a Hardware Testprogram. For testing DAC Streaming, it has to be activated in
 //    components/eduboard2/eduboard2_config. 
