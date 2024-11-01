@@ -292,8 +292,8 @@ void testADC() {
         
     }
 
-    uint32_t adcValue = adc_get_raw();
-    uint32_t adcVoltage_mv = adc_get_voltage_mv();
+    uint32_t adcValue = adc_get_raw(AN0);
+    uint32_t adcVoltage_mv = adc_get_voltage_mv(AN0);
 
     for(int i = ADC_BUFFER_SIZE-1; i > 0; i--) {
         adcRawBuffer[i] = adcRawBuffer[i-1];
